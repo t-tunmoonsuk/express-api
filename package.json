@@ -1,10 +1,12 @@
 {
   "name": "express-api",
   "version": "1.0.0",
+  "description": "A toy project to learn how to build an API with Express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js"
+    "start": "nodemon ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,5 @@
     "mongoose": "^8.10.0",
     "nodemon": "^3.1.9",
     "nodeserver": "^0.0.2"
-  },
-  "description": ""
+  }
 }
